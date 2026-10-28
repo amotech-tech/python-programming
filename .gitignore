@@ -1,0 +1,13 @@
+.venv
+.env
+
+
+
+#.gitignore
+
+
+#git init
+#git add .
+#git commit -m "Python basics"
+#git remote add origin https://github.com/amotech-tech/python-programming.git
+#git push -u origin main
