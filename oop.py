@@ -1,9 +1,14 @@
+# oop
+# object
+# class
+
 class Person:
-    def __init__(self,name,dob,color, weigth,height,age):
+    #constructor
+    def __init__(self,name,dob,color, weight,height,age):
         self.name=name
         self.age=age
         self.dob=dob
-        self.weigth=weigth
+        self.weight=weight
         self.color=color
         self.height=height
 
@@ -11,7 +16,7 @@ class Person:
           print(f"Your name is {self.name} and DOB is {self.dob} years old")
 
     def get_bmi(self):
-        result=self.weigth/self.height**2
+        result=self.weight/self.height**2
         return round(result,2)
 
 p1= Person("Stephen","20-04-2003","black",50.2,5.6,22)
