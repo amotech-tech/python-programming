@@ -22,6 +22,9 @@ def funcy_function(name,*nums, **kwargs):
 
 
 funcy_function("Amos",(3,4,5,67))
+
+def module_function(a,b):
+    return a+b
 #
 #
 # build_profile(experience=100, name="Jane", proffession="IT")
